@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField]
-    public float MovementSpeed = 4f;
+    public float movementSpeed = 8f;
 
     Vector3 forward, right;
 
@@ -35,8 +35,8 @@ public class PlayerMovement : MonoBehaviour
     {
 
         var direction = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-        var rightMovement = right * MovementSpeed * Time.deltaTime * Input.GetAxis("Horizontal");
-        var forwardMovement = forward * MovementSpeed * Time.deltaTime * Input.GetAxis("Vertical");
+        var rightMovement = right * movementSpeed * Time.deltaTime * Input.GetAxis("Horizontal");
+        var forwardMovement = forward * movementSpeed * Time.deltaTime * Input.GetAxis("Vertical");
 
         // Rotate player to the correct direction 
         var heading = Vector3.Normalize(rightMovement + forwardMovement);
