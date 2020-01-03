@@ -1,11 +1,8 @@
 fileFormatVersion: 2
-guid: 1518d3c727fc54f47a06c513d1217ee5
+guid: 2683549a06d78ae459b064181e28e7e4
 ModelImporter:
   serializedVersion: 26
-  internalIDToNameTable:
-  - first:
-      74: 3030392415984086943
-    second: DoorArmature|Open
+  internalIDToNameTable: []
   externalObjects: {}
   materials:
     importMaterials: 1

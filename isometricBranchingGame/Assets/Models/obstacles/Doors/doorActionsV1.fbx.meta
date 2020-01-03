@@ -1,8 +1,14 @@
 fileFormatVersion: 2
-guid: 7eedc3a7257676844aec0b9b5a1e6dd8
+guid: 279971f86b84da846b862d9eb2f0ed82
 ModelImporter:
   serializedVersion: 26
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: -3117272739942739120
+    second: DoorArmatureOneMesh|CloseDoor
+  - first:
+      74: -5883356784439182552
+    second: DoorArmatureOneMesh|OpenDoor
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -87,7 +93,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

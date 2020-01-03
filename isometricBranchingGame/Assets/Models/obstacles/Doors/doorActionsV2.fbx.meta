@@ -1,26 +1,14 @@
 fileFormatVersion: 2
-guid: d76605bb91615134cbb64bc9b3ae0797
+guid: 20c1b350cff918043bb5b6f2d853e6f1
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable:
   - first:
-      74: -4332573115551659449
-    second: Close.001
+      74: -3117272739942739120
+    second: DoorArmatureOneMesh|CloseDoor
   - first:
-      74: -5890000314698603753
-    second: Close.002
-  - first:
-      74: 4104832972019845153
-    second: DoorArmature|Action
-  - first:
-      74: -238080696511767149
-    second: DoorArmature|Close
-  - first:
-      74: 3030392415984086943
-    second: DoorArmature|Open
-  - first:
-      74: 3349249005517581908
-    second: DoorFrame|Action
+      74: -5883356784439182552
+    second: DoorArmatureOneMesh|OpenDoor
   externalObjects: {}
   materials:
     importMaterials: 1

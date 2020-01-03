@@ -10,7 +10,8 @@ public class OpenDoor : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject == player)
+        Debug.Log(animator.GetParameter(0).name);
+        if (other.gameObject == player|| true)
         {
             animator.SetBool("IsOpen", true);
         }
@@ -18,7 +19,7 @@ public class OpenDoor : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
-        if (other.gameObject == player)
+        if (other.gameObject == player || true)
         {
             animator.SetBool("IsOpen", false);
         }
@@ -27,7 +28,8 @@ public class OpenDoor : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        animator = GetComponent<Animator>();
+        //animator = doorRig.GetComponent<Animator>();
+        animator = this.GetComponentsInChildren<Animator>()[0];
     }
 
     // Update is called once per frame
