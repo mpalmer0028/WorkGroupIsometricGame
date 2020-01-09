@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4100713691392976912}
   - component: {fileID: 5022551382360592934}
   - component: {fileID: 1625560546903060191}
+  - component: {fileID: 8388020196392281498}
   m_Layer: 0
   m_Name: floor_proto
   m_TagString: Untagged
@@ -78,3 +79,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &8388020196392281498
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059455014094363139}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 1.9999996, z: 1.9999998}
+  m_Center: {x: 0, y: 0, z: 0}
