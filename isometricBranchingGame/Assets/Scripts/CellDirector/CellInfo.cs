@@ -15,7 +15,12 @@ public class CellInfo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        TopLeftSibling = null;
+        TopRightSibling = null;
+        BottomLeftSibling = null;
+        BottomRightSibling = null;
+        LeftSibling = null;
+        RightSibling = null;
     }
 
     // Update is called once per frame
