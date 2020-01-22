@@ -175,7 +175,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 6, y: 0, z: 6}
+  m_Size: {x: 6, y: 15, z: 6}
   m_Center: {x: -13, y: 8, z: -13}
 --- !u!1 &111759438
 GameObject:
@@ -289,7 +289,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 6, y: 0, z: 6}
+  m_Size: {x: 6, y: 15, z: 6}
   m_Center: {x: 13, y: 8, z: -13}
 --- !u!1 &257280967
 GameObject:
@@ -489,7 +489,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &871581944
 PrefabInstance:
@@ -560,7 +560,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd61f9cccb0ec254a9abc641f2a50c6a, type: 3}
---- !u!1001 &1126636708
+--- !u!1001 &1335697968
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -580,7 +580,7 @@ PrefabInstance:
     - target: {fileID: 5486185629947168920, guid: ded5831a009c1394ab8cc45875d87796,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.34
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5486185629947168920, guid: ded5831a009c1394ab8cc45875d87796,
         type: 3}
@@ -610,7 +610,7 @@ PrefabInstance:
     - target: {fileID: 5486185629947168920, guid: ded5831a009c1394ab8cc45875d87796,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5486185629947168920, guid: ded5831a009c1394ab8cc45875d87796,
         type: 3}
@@ -625,11 +625,6 @@ PrefabInstance:
     - target: {fileID: 5486185629947168920, guid: ded5831a009c1394ab8cc45875d87796,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5486185629947168924, guid: ded5831a009c1394ab8cc45875d87796,
-        type: 3}
-      propertyPath: m_IsKinematic
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
