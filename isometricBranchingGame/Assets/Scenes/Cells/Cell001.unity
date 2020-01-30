@@ -105,15 +105,15 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.5
+    agentRadius: 1.4
     agentHeight: 1
-    agentSlope: 45
+    agentSlope: 20
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.16666667
+    cellSize: 0.46666667
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
@@ -645,7 +645,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 262362026}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.46, y: -5.198, z: -7.69}
+  m_LocalPosition: {x: -16.39, y: -5.198, z: -7.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1294054321}
@@ -4019,7 +4019,7 @@ PrefabInstance:
     - target: {fileID: 3908273670819181621, guid: a7dd33bea45f4ce4f9b4feab185e0baa,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4980162207858563705, guid: a7dd33bea45f4ce4f9b4feab185e0baa,
         type: 3}
@@ -4427,6 +4427,31 @@ PrefabInstance:
       propertyPath: waypoints.Array.data[9]
       value: 
       objectReference: {fileID: 1082467150}
+    - target: {fileID: 4006445944499854404, guid: c2c394ed157bf0642910c70c09a79039,
+        type: 3}
+      propertyPath: m_AutoTraverseOffMeshLink
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006445944499854404, guid: c2c394ed157bf0642910c70c09a79039,
+        type: 3}
+      propertyPath: m_AutoRepath
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006445944499854404, guid: c2c394ed157bf0642910c70c09a79039,
+        type: 3}
+      propertyPath: m_WalkableMask
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006445944499854404, guid: c2c394ed157bf0642910c70c09a79039,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006445944499854404, guid: c2c394ed157bf0642910c70c09a79039,
+        type: 3}
+      propertyPath: m_Height
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2c394ed157bf0642910c70c09a79039, type: 3}
 --- !u!4 &6947411991552234365 stripped
