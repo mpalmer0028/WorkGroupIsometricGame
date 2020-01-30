@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 5984576824887691101}
   - component: {fileID: 14062210116271012}
   - component: {fileID: 7722774628966419506}
+  - component: {fileID: 3942739519196040588}
+  - component: {fileID: 8682199557957053852}
   m_Layer: 0
   m_Name: saw 1
   m_TagString: Untagged
@@ -98,3 +100,29 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &3942739519196040588
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5141647061232960162}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.013, y: 0.0011995924, z: 0.024}
+  m_Center: {x: -0.00003082678, y: 1.1641532e-10, z: 0}
+--- !u!65 &8682199557957053852
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5141647061232960162}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.023884168, y: 0.0011995924, z: 0.013}
+  m_Center: {x: -0.00003082678, y: 1.1641532e-10, z: 0}
