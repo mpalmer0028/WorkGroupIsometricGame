@@ -46,7 +46,7 @@ public class CameraFollowingPlayer : MonoBehaviour
         // Get player object
         if(player == null)
         {
-            player = GameObject.Find("Player");
+            player = GameObject.FindGameObjectWithTag("Player");
         }
         // Get initial y position for the camera so that vertical movement is ignored for now 
         startingYposition = transform.position.y;
