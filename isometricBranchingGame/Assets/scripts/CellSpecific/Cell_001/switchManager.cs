@@ -11,12 +11,12 @@ public class switchManager : MonoBehaviour
     }
 
     void manageSwitch02(){
-      ToggleSaws();
       ToggleFlames();
       ToggleSpikes();
     }
 
     void manageSwitch03(){
+      ToggleSaws();
       ToggleFlames();
       TogglePlatforms();
     }
@@ -44,12 +44,15 @@ public class switchManager : MonoBehaviour
 
 
     public void Update(){
+      // TEST: Keyboard Number 1
       if(Input.GetKey(KeyCode.Alpha1)){
         manageSwitch01();
       }
+      // TEST: Keyboard Number 2
       if(Input.GetKey(KeyCode.Alpha2)){
         manageSwitch02();
       }
+      // TEST: Keyboard Number 3
       if(Input.GetKey(KeyCode.Alpha3)){
         manageSwitch03();
       }
