@@ -2808,6 +2808,7 @@ GameObject:
   - component: {fileID: 6044540575634064024}
   - component: {fileID: 8069344164448664424}
   - component: {fileID: 2351969142927556823}
+  - component: {fileID: 2879731167862744035}
   m_Layer: 0
   m_Name: playerV2
   m_TagString: Player
@@ -2863,6 +2864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 12
+  animator: {fileID: 0}
 --- !u!54 &8069344164448664424
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2892,6 +2894,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.82, z: 0.46}
   m_Center: {x: 0, y: 1, z: 0.06}
+--- !u!114 &2879731167862744035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8822449922671995032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b0d68f3fdb9cf49aebb3a4c4288ec1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursor: {fileID: 4836685281675911918, guid: e1121627776b414458d6472a45839df8, type: 3}
+  slider: -2
 --- !u!1 &8825291460081786098
 GameObject:
   m_ObjectHideFlags: 0

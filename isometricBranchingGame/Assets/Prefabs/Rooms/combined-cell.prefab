@@ -197,7 +197,7 @@ GameObject:
   - component: {fileID: 6865445218246561090}
   m_Layer: 0
   m_Name: combined-cell
-  m_TagString: Untagged
+  m_TagString: Cell
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
